@@ -1,0 +1,29 @@
+//import mongoose in the application
+const mongoose = require('mongoose');
+
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost:27017/myDatabase', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
+
+// Define a schema
+const userSchema = new mongoose.Schema({
+    name: String,
+    age: Number,
+    email: String,
+});
+
+// Create a model
+const User = mongoose.model('User', userSchema);
+
+// Insert a document
+const user = new User({
+    name: 'Mohit Kumar',
+    age: 25,
+    email: 'mohit@example.com',
+});
+
+user.save()
+    .then(() => console.log('User saved'))
+    .catch((err) => console.error('Error:', err));

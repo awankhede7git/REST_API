@@ -1,0 +1,14 @@
+THIS IS MY FIRST REST API<3
+
+Made solely for the purpose of Arya's understanding!
+
+index.js - this runs the rest api without the use of mongoose, using only express library.
+
+index2.js - this runs the rest api using mongoose, and compares the two methods, with the other method commented out.
+
+Use postman for testing the http methods y'all!
+
+byeeee
+
+NOTE: Watch video number 20 before uploading on github<3
+

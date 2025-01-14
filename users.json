@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "name": "New User Name",
+    "email": "new.email@example.com",
+    "phone": "+1-555-5678",
+    "address": "456 Oak Avenue, Denver, CO, USA"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1-555-9101",
+    "address": "789 Pine Road, Austin, TX, USA"
+  }
+]
